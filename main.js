@@ -18,6 +18,10 @@ start.addEventListener('click', () => {
   console.log('Game started')
 })
 
+function onClick = () => {
+document.addEventListener('click')
+}
+
   for (let i = 0; i < shotPlacement.length; i++) {
     if (kicker.shotPlacement[0] === goalie.keeperPosition[0])
       console.log('Saved')
