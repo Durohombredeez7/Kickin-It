@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-size: 800vh 800vw;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Anton', sans-serif;
+}
+
+h1,p {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: green;
+}
+.Goal {
+    display: grid;
+    /* background-color: white; */
+    border: 5px solid black;
+    height: 410px;
+    width: 835px;
+    margin: auto;
+    align-self: space-around;
+    background-image: "./assets/images/goal.png";
+    justify-content: center;
+    
+}
+.one {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+.two {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+
+}
+.three {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+.four {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+.five {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+}
+.six {
+    /* background-color: white; */
+    border: 0px solid black;
+    height: 200px;
+    width: 275px;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+button {
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    border-radius: 3px;
+    color: green;
+    padding: 5px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+.responsive-table {
+    text-align: left;
+    font-size: 15px;
+    justify-content: bottom;
+}
+
